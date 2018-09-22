@@ -78,8 +78,9 @@ h2 {
 
 h3 {
 	font-size: 18px;
+	margin: 0;
 }
-
+/*Fixed navigation-bar*/
 .nav-bar {
 	background-color: #AAAAAA;
 	position: fixed;
@@ -113,6 +114,7 @@ h3 {
 	position: relative;
 }
 
+/*navbar animation*/
 .nav-bar a::before {
 	content: '';
 	display: block;
@@ -197,7 +199,7 @@ footer {
 }
 
 footer address p {
-	margin: 1em 0;
+	margin-top: 1em;
 }
 
 .copyright {
